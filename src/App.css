@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px 20px;
+}
+
+.gallery_item {
+  padding: 8px;
+  width: 300px;
+  border: solid black 2px;
+}
+
+.gallery_item__buttons {
+  display: flex;
+  justify-content: right;
+  gap: 8px;
+}
+
+.--hidden {
+  visibility: hidden;
+}
